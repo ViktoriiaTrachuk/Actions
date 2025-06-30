@@ -9,4 +9,3 @@ jobs:
     - name: Branch Name
       run:  
         echo 'The name of this branch is ${{github.ref_name}}'
-        
