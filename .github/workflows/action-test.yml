@@ -9,5 +9,3 @@ jobs:
     - name: Branch Name
       run:  
         echo 'The name of this branch is ${{github.ref_name}}'git add .github/workflows/action-test.yml
-git commit -m "Fix: create valid workflow file"
-git push
